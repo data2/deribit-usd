@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(function() {
 				pageUrl: {hostEquals: 'deribit.com'},
 			})
 			],
-			actions: [new alert("FOO")]
+			actions: [alert("FOO")]
 		}]);
 	});
 });
