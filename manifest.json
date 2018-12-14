@@ -1,0 +1,12 @@
+{
+    "name": "Deribit USD Equity",
+    "version": "0.1",
+    "description": "Shows your equity on deribit.com in USD in addition to the BTC equity!",
+    "permissions": ["declarativeContent"],
+    "background": {
+	    "scripts": ["background.js"],
+	    "persistent": false
+
+    },
+    "manifest_version": 2
+  }
